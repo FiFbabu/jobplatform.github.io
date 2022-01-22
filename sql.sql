@@ -1,0 +1,7 @@
+
+CREATE DATABASE `wdatabase`;
+CREATE TABLE `wuser`(
+	`id` INT NOT NULL AUTO_INCREMENT ,
+	`email` VARCHAR(100) NOT NULL ,
+	PRIMARY KEY(`id`)
+) ENGINE = InnoDB ;
